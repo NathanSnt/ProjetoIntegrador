@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#main {
+    margin-top: 5%;
+    height: 800px;
+    width: 600px;
+    border-radius: 40px;
+    padding: 100px 50px;
+    box-shadow: 10px 20px 30px aquamarine;
+}
+
+#botoes {
+    width: 150px;
+}
+
+#titulo {
+    margin-top: 15%;
+}
+
+#campo {
+    margin-top: 10%;
+    width: 500px;
+    height: 150px;
+}
+
+#lembre-me {
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+#esqueci-senha {
+    margin-top: 5%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#submmit {
+    width: 300px;
+    font: 20px bold arial;
+}
+
+#btn-entrar {
+    margin-top: 5%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
