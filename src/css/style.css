@@ -26,19 +26,31 @@ body {
     height: 150px;
 }
 
+#campo-registro {
+    margin-top: 10%;
+    width: 500px;
+    height: 250px;
+}
+
 #lembre-me {
     margin-top: 5%;
     font-size: 20px;
 }
 
 #esqueci-senha {
-    margin-top: 5%;
+    margin-top: 10%;
     font-size: 20px;
     display: flex;
     justify-content: center;
 }
 
 #submmit {
+    margin-top: 10%;
+    width: 300px;
+    font: 20px bold arial;
+}
+
+#submmit-registra {
     width: 300px;
     font: 20px bold arial;
 }

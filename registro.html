@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/5c3542a6a8.js" crossorigin="anonymous"></script>
+    <title>Registrar</title>
+</head>
+<body>
+
+    <div id="main" class="card">
+        <!--<div class="is-flex is-justify-content-space-around">
+            <button id="botoes" class="button has-background-primary has-text-white">Entrar</button>
+            <button id="botoes" class="button has-text-primary">Registrar</button>
+        </div>-->
+
+        <div id="titulo" class="is-flex is-justify-content-center">
+            <h1 class="title has-text-primary" >REGISTRAR</h1>
+        </div>
+
+        <div id="campo-registro" class="is-flex is-flex-direction-column is-justify-content-space-around">
+            <p class="control has-icons-left">
+                <input placeholder="Digite o seu nome" type="text" class="input is-rounded">
+                <span class="icon is-small is-left">
+                    <i class="fa-solid fa-user"></i>
+                </span>
+            </p>
+            <p class="control has-icons-left">
+                <input placeholder="Digite o seu Email" type="email" class="input is-rounded">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                </span>
+            </p>
+            <p class="control has-icons-left">
+                <input placeholder="Digite a sua senha" type="password" class="input is-rounded">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-lock"></i>
+                </span>
+            </p>
+            <p class="control has-icons-left">
+                <input placeholder="Confirme a sua senha" type="password" class="input is-rounded">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-lock"></i>
+                </span>
+            </p>
+        </div>
+
+        <div id="lembre-me">
+            <input id="check" type="checkbox">
+            <label for="check">Lembre-me</label>
+        </div>
+
+        <div  id="esqueci-senha">
+            <a href="#">Esqueci a minha senha</a>
+        </div>
+
+        <div id="btn-entrar">
+            <button id="submmit-registra" class="button has-text-primary">Entrar</button>
+        </div>
+    </div>
+
+    <script src="src/scripts/scripts.js"></script>
+</body>
+</html>
