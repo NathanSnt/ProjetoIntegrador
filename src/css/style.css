@@ -9,7 +9,7 @@ body {
     width: 600px;
     border-radius: 40px;
     padding: 100px 50px;
-    box-shadow: 10px 20px 30px aquamarine;
+    box-shadow: 10px 20px 30px #1CAAC9;
 }
 
 #botoes {
@@ -18,6 +18,14 @@ body {
 
 #titulo {
     margin-top: 15%;
+}
+
+#titulo h1 {
+    color: #1CAAC9;
+}
+
+#btn-entrar button {
+    color: #1CAAC9;
 }
 
 #campo {
@@ -61,3 +69,5 @@ body {
     display: flex;
     justify-content: center;
 }
+
+/* has-text-primary */
